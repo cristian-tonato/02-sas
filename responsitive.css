@@ -29,6 +29,17 @@ header:target nav{
     left: 0;
     bottom: 0;
     background-color: aliceblue;
+    width: 50%;
+    font-size: 2rem;
+    padding: 1rem ;
+}
+header:target nav ::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(80, 173, 34);
 }
 
 nav{
@@ -46,7 +57,7 @@ nav li{
     padding: 0;
 }
 nav a{
-    color: indianred;
+    color: navy;
 }
 
 .icon-wrapper{
