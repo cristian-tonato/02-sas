@@ -8,3 +8,15 @@ body{
     color:$primary-color
     background-color $secundary-color
 }
+.header{
+    color:aqua;
+    &_menu{
+        display: flex;
+        &--big{
+            width: 100%;
+        }
+    }
+    &--big{
+        width: 100%;
+    }
+}

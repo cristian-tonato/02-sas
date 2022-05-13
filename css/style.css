@@ -1,8 +1,18 @@
 body {
-  color: bisque;
+  color: bisque background-color brown;
 }
-body div {
+
+.header {
   color: aqua;
+}
+.header_menu {
+  display: flex;
+}
+.header_menu--big {
+  width: 100%;
+}
+.header--big {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
