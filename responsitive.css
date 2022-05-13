@@ -25,6 +25,7 @@ header:target nav{
     /*color: darkcyan;*/
     display: initial;
     position: absolute;
+    z-index: 2;
     top: 0;
     left: 0;
     bottom: 0;
@@ -33,17 +34,21 @@ header:target nav{
     font-size: 2rem;
     padding: 1rem ;
 }
-header:target nav ::after{
+header:target::after{
+    content: " ";
     position: absolute;
+    display: block;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgb(80, 173, 34);
+    background-color: rgba(155, 218, 124, 0.891);
 }
 
 nav{
-    display: none;
+    /*display: none;*/
+    width: 0%;
+    transition:width 0.3s linear;
 
 }
 nav ul{
@@ -62,6 +67,7 @@ nav a{
 
 .icon-wrapper{
     width: 20%;
+    
 
 }
 .icon-wrapper img{
